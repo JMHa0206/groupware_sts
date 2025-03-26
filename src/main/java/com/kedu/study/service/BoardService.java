@@ -1,5 +1,9 @@
 package com.kedu.study.service;
 
-public class BoardService {
+import java.util.List;
 
+import com.kedu.study.dto.BoardDTO;
+
+public interface BoardService {
+	public List<BoardDTO> selectAll();
 }
