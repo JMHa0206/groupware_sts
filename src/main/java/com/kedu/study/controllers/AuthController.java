@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kedu.dto.LoginDTO;
+import com.kedu.study.dto.LoginDTO;
 import com.kedu.study.utils.JWTUtil;
 
 import jakarta.servlet.http.HttpServletRequest;
